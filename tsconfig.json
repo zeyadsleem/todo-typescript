@@ -1,9 +1,13 @@
 {
-  "include": ["src", "types"],
+  "include": [
+    "src",
+    "types"
+  ],
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
+    "outDir": "./dist",
     "jsx": "preserve",
     "baseUrl": "./",
     /* paths - import rewriting/resolving */
